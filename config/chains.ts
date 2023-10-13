@@ -4,11 +4,11 @@ import { ChainMap, ChainMetadata, ProtocolType } from '@hyperlane-xyz/sdk';
 // A map of chain names to ChainMetadata
 export const chains: ChainMap<ChainMetadata> = {
   // ----------- Add your chains here -----------------
-  anvil1: {
-    name: 'anvil1',
+  vanna: {
+    name: 'vanna',
     protocol: ProtocolType.Ethereum,
     // anvil default chain id
-    chainId: 31337,
+    chainId: 901,
     // Used to configure a Warp Route to bridge anvil1 ETH
     // to anvil2 in CI tests.
     nativeToken: {
@@ -18,7 +18,7 @@ export const chains: ChainMap<ChainMetadata> = {
     },
     rpcUrls: [
       {
-        http: 'http://127.0.0.1:8545',
+        http: 'http://dev-rpc.vannalabs.ai:9545',
       },
     ],
     // You can set overrides for transaction fields here
