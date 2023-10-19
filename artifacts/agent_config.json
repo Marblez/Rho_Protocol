@@ -1,0 +1,32 @@
+{
+  "chains": {
+    "bsctestnet": {
+      "name": "bsctestnet",
+      "domain": 97,
+      "addresses": {
+        "mailbox": "0xCC737a94FecaeC165AbCf12dED095BB13F037685",
+        "interchainGasPaymaster": "0x432F26837c863780ed3BC180B98685a9a35A9BC5",
+        "validatorAnnounce": "0x3Fc742696D5dc9846e04f7A1823D92cb51695f9a"
+      },
+      "protocol": "ethereum",
+      "finalityBlocks": 9,
+      "index": {
+        "from": 25001629
+      }
+    },
+    "vanna": {
+      "name": "vanna",
+      "domain": 901,
+      "addresses": {
+        "mailbox": "0x1eE5D606fa3181043E1f44F0d47737Da51fD98bf",
+        "interchainGasPaymaster": "0x15629d9857E86d6Ab5B8179ceBB929baa1e6ad64",
+        "validatorAnnounce": "0x06C371FC7191b59aEed9f17a9FE3f20ffEaB6F13"
+      },
+      "protocol": "ethereum",
+      "finalityBlocks": 1,
+      "index": {
+        "from": 296735
+      }
+    }
+  }
+}

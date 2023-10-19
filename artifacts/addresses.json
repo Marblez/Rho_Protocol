@@ -1,0 +1,42 @@
+{
+  "optimismgoerli": {
+    "proxyAdmin": "0x2bEd9d0fe2c46E78b50878d4e929E7db315EdD3E",
+    "storageGasOracle": "0x80038f15D8601E612D6A43AA4B19516DFC976230",
+    "interchainGasPaymaster": "0x432F26837c863780ed3BC180B98685a9a35A9BC5",
+    "defaultIsmInterchainGasPaymaster": "0x15629d9857E86d6Ab5B8179ceBB929baa1e6ad64",
+    "interchainSecurityModule": "0x26C80Afc6a5DB9aaedB21B1402e5202e8867A63d",
+    "testRecipient": "0x4F2876E1F535490D34DEBDd6EfF599657B0677ef",
+    "merkleRootMultisigIsmFactory": "0xAaD75B1C173701c21Fa71e6f3451981A56B6880a",
+    "messageIdMultisigIsmFactory": "0x247b0bAFCb655B7f88bF1908c2313e2546B746FA"
+  },
+  "vanna": {
+    "merkleRootMultisigIsmFactory": "0x94B82d3D8b4165154760621812b6EE01d2A04036",
+    "messageIdMultisigIsmFactory": "0xE427DFD40A17E392F34b3c0550a44550fd4249D8",
+    "aggregationIsmFactory": "0x2bEd9d0fe2c46E78b50878d4e929E7db315EdD3E",
+    "routingIsmFactory": "0x80038f15D8601E612D6A43AA4B19516DFC976230",
+    "proxyAdmin": "0x6358FcF94C6c93648eE0c5Cd7FBc062A56dc8B4E",
+    "storageGasOracle": "0xF4655a06B9B580b8C46Fc8d5fA614d2366562157",
+    "interchainGasPaymaster": "0x15629d9857E86d6Ab5B8179ceBB929baa1e6ad64",
+    "defaultIsmInterchainGasPaymaster": "0x79B743EEbd1A5a60eE3C354392A6F9702D779822",
+    "mailbox": "0x1eE5D606fa3181043E1f44F0d47737Da51fD98bf",
+    "validatorAnnounce": "0x06C371FC7191b59aEed9f17a9FE3f20ffEaB6F13",
+    "timelockController": "0x0000000000000000000000000000000000000000",
+    "testRecipient": "0x80913f62d3094Ee606212b774614340b63cb14d6"
+  },
+  "arbitrumgoerli": {
+    "proxyAdmin": "0x6358FcF94C6c93648eE0c5Cd7FBc062A56dc8B4E",
+    "storageGasOracle": "0xF4655a06B9B580b8C46Fc8d5fA614d2366562157",
+    "interchainGasPaymaster": "0x15629d9857E86d6Ab5B8179ceBB929baa1e6ad64",
+    "defaultIsmInterchainGasPaymaster": "0x79B743EEbd1A5a60eE3C354392A6F9702D779822",
+    "interchainSecurityModule": "0xE864805c2e61CFAD1f7a7C0a3eB9E72d3aEa2083",
+    "testRecipient": "0x06C371FC7191b59aEed9f17a9FE3f20ffEaB6F13"
+  },
+  "bsctestnet": {
+    "proxyAdmin": "0x2bEd9d0fe2c46E78b50878d4e929E7db315EdD3E",
+    "storageGasOracle": "0x80038f15D8601E612D6A43AA4B19516DFC976230",
+    "interchainGasPaymaster": "0x432F26837c863780ed3BC180B98685a9a35A9BC5",
+    "defaultIsmInterchainGasPaymaster": "0x15629d9857E86d6Ab5B8179ceBB929baa1e6ad64",
+    "interchainSecurityModule": "0xc89e800fe9A43445e9700c1d06dCE6660045acD6",
+    "testRecipient": "0x4F2876E1F535490D34DEBDd6EfF599657B0677ef"
+  }
+}
